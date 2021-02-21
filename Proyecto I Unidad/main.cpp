@@ -23,7 +23,8 @@ int main(int argc, char const *argv[])
         cout << endl;
         cout << "Ingrese un numero del menu para seleccionar un juego: ";
         cin >> opcion;
-        cout << endl;
+
+        system("cls");
 
         switch (opcion)
         { 
