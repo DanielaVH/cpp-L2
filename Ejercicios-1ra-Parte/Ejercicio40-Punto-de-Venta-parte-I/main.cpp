@@ -1,9 +1,11 @@
 #include <iostream>
 
+using namespace std;
+
+extern void menu();
+
 int main(int argc, char const *argv[])
 {
-   
-   std :: cout<<"Hola Mundo!";
-   
+    menu();
     return 0;
 }
